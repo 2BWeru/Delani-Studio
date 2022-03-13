@@ -42,7 +42,33 @@ body{
     font-size: medium;
     padding-top: 10%;
 }
+/* another overlay */
+.serv-img{
+    background-image: url(/image/studio1.jpeg);
+    height:60vh;
+    width:80vw;
+    background-size: cover;
+    position: relative;
+    
+}
+.serv-overlay{
+    position: absolute;
+    height: 60vh;
+    width: 80vw;
+    display: none;
 
+}
+.serv-overlay h3{
+    padding-top: 70px;
+    font-weight: 400;
+    color:whitesmoke;
+}
+.serv-overlay p{
+    padding-top: 6px;
+    font-size: medium;
+    color: #ccc;
+    inline-padding:
+}
 .logo-main{
     float:left;
 }
