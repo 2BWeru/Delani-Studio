@@ -27,4 +27,32 @@ h2 , p {
 #mouse{
     padding-top: 4px;
 }
-
+input[type=text] {
+    width: 70%;
+    padding: 5px 9px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:2px solid#ccc;
+    
+  }
+  input[type=email] {
+    width: 70%;
+    padding: 5px 9px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:2px solid#ccc;
+  }
+  textarea {
+      width:50%;
+      height:200px;
+      background-color: beige;
+      resize: none;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+  }
+/* .row{
+    column-rule: 4px double #ccc;
+    column-gap: 1px;
+}
+   */
