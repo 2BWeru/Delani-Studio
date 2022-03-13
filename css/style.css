@@ -1,21 +1,15 @@
 body{
     height: 0;
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Ramaraja', serif;
+
+    font-family: 'Zilla Slab', serif;
 }
+
 .logo-main{
     float:left;
 }
-/* .design p{
-    text-align: left;
+.col-sm-3{
+    padding-left:2px;
 }
-.development{
-    text-align: center;
-}
-.development p{
-    text-align: center;
-}
-.Product{
-     text-align: right;
-}
-.product p{
-    text-align: right;
-} */
