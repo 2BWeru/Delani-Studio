@@ -42,7 +42,7 @@ body{
     font-size: medium;
     padding-top: 10%;
 }
-/* another overlay */
+/* /* another overlay */
 .serv-img{
     background-image: url(/image/studio1.jpeg);
     height:60vh;
@@ -55,7 +55,7 @@ body{
     position: absolute;
     height: 60vh;
     width: 80vw;
-    display: none;
+    display: block;
 
 }
 .serv-overlay h3{
@@ -67,8 +67,7 @@ body{
     padding-top: 6px;
     font-size: medium;
     color: #ccc;
-    inline-padding:
-}
+} 
 .logo-main{
     float:left;
 }
@@ -85,18 +84,31 @@ h2 , p {
 #mouse{
     padding-top: 4px;
 }
+.footer-img{
+    background-image: url(/image/studio3.jpg);
+    height:90vh;
+    width: 80vw;
+    background-size: cover;
+    position: relative;
+}   
+.form-overlay{
+    height:90vh;
+    width:80vh;
+    position: absolute;
+    display:block;
+}
 input[type=text] {
-    width: 70%;
-    padding: 5px 9px;
-    margin: 8px 0;
+    width: 90%;
+    padding: 10px 20px;
+    margin: 12px 0;
     box-sizing: border-box;
-    border:2px solid#ccc;
+    border:2px solid burlywood;
     
   }
   input[type=email] {
-    width: 70%;
-    padding: 5px 9px;
-    margin: 8px 0;
+    width: 90%;
+    padding: 10px 20px;
+    margin: 12px 0;
     box-sizing: border-box;
     border:2px solid#ccc;
   }

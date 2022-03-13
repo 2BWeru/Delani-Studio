@@ -6,3 +6,4 @@ function(){
     $('#delani').css("display","none");
 }
 );
+
