@@ -20,6 +20,11 @@ body{
 h4 , h3 , h5{
     text-align: center;
 }
-h2 , p{
+h2 , p {
     text-align: center;
+    padding-bottom: 6px;
 }
+#mouse{
+    padding-top: 4px;
+}
+
