@@ -68,6 +68,17 @@ body{
     font-size: medium;
     color: #ccc;
 } 
+/* what we do overlay */
+#text1{
+    display: none;
+}
+#text2{
+    display: none;
+}
+#text3{
+    display: none;
+}
+
 .logo-main{
     float:left;
 }

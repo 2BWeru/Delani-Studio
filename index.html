@@ -26,8 +26,10 @@
           <h2>Welcome</h2>
           <h2>To Delani Studio</h2>
         <p id="welcome">
-          Amazing people making amazing designs in a fun environment<br />
-          <img src="./image/outline_mouse_black_24dp.png" id="mouse" />
+          Amazing people making amazing designs in a fun environment<br/>
+          <div class="mouse-click" id="mouse-toggle">
+            <img src="./image/outline_mouse_black_24dp.png" id="mouse" width="50px" height="50px">
+          </div>
         </p>
         </div>
       </div>
@@ -56,10 +58,9 @@
         <h5>What we do</h5>
         <div class="row">
           <div class="col-md-4">
-            <div class="design">
-              <img src="./image/design_icon.png" width="40px" height="40px" />
+              <img src="./image/design_icon.png" width="40px" height="40px" id="clickable1"/>
               <h6>Design</h6>
-              <p>
+              <p id="text1">
                 Our design practice offers a full range of services including
                 brand strategy, interaction and visual design and user
                 experience testing. Throughout your project, our designers
@@ -68,32 +69,27 @@
                 is needed.
               </p>
             </div>
-          </div>
           <div class="col-md-4">
-            <div class="development">
-              <img src="./image/dev_icon.png" width="40px" height="40px" />
-              <h6>development</h6>
-              <p>
+              <img src="./image/dev_icon.png" width="40px" height="40px" id="clickable2"/>
+              <h6>Development</h6>
+              <p id="text2">
                 All engineers are fluent in the latest enterprise, mobile and
                 web development technologies. They collaborate with your team to
                 write, and improve code on a daily basis, using proven practices
                 such as test-driven development and pair programming.
               </p>
-            </div>
           </div>
           <div class="col-md-4">
-            <div class="Product">
-              <img src="./image/product_icon.png" width="40px" height="40px" />
+              <img src="./image/product_icon.png" width="40px" height="40px" id="clickable3"/>
               <h6>Product Management</h6>
-              <p>
+              <p id="text3"> 
                 Planning and development is iterative. Because we are constantly
                 coding and testing, the products we build are always ready to go
-                live. This iterative process allows for changes as business
+                live.This iterative process allows for changes as business
                 requirements evolve.
               </p>
+              </div>
             </div>
-          </div>
-        </div>
       </div>
       <div class="projects">
         <h4>Projects</h4>
@@ -138,7 +134,7 @@
     <footer class="container">
       <div class="footer_box">
         <div class="footer-img">
-        <form class="form-contact">
+        <div class="form-overlay">
           <div class="row">
           <div class="col-6">
             <label for=" contact"></label>
