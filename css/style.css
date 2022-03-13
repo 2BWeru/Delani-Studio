@@ -51,8 +51,14 @@ input[type=text] {
       border: 2px solid #ccc;
       border-radius: 4px;
   }
-/* .row{
-    column-rule: 4px double #ccc;
-    column-gap: 1px;
-}
-   */
+  .icon_box{
+      padding-top: 6px;
+      text-align: center;
+      padding-bottom: 6px;
+      
+  }
+  footer ,p{
+      font-size: x-small;
+  }
+  
+
