@@ -251,48 +251,50 @@ h2 , p {
 
 .footer-img{
     background-image: url(../image/studio3.jpg);
-    height: 90vh;
+    height: 80vh;
     width: 80vw;
     background-size: cover;
     position: relative;
 }   
 .form-overlay{
-    height:90vh;
+    height:80vh;
     width:80vw;
     position: absolute;
     display:block;
+    color: rgb(0,0,0,0.2);
 }
 input[type=text] {
     width: 90%;
     padding: 20px 20px;
     margin: 12px 0;
     box-sizing: border-box;
-    border:2px solid burlywood;
+    border:2px solid white;
     font-weight: 300;
-    color: black;
+    color: gray;
     font-size: medium;
     
 }
   input[type=email] {
     width: 90%;
     padding: 20px 20px;
-    margin: 22px 0;
+    margin: 12px 0;
     box-sizing: border-box;
     border:2px solid#ccc;
     font-weight: 300;
-    color: black;
+    color: gray;
     font-size: medium;
   }
   textarea {
       width:90%;
       height:300px;
-      background-color:#ccc;
+      background-color:white;
       resize: none;
       box-sizing: border-box;
       border: 2px solid tan;
       border-radius: 4px;
       font-weight: 300;
-      color: black;
+      font-size: medium;
+      color: gray;
       font-size: medium;
 
   }
@@ -301,6 +303,22 @@ input[type=text] {
       text-align: center;
       padding-bottom: 6px;
       
+  }
+  #btn{
+        width: 20%;
+        padding: 10px 12px;
+        margin: 6px 0;
+        box-sizing: border-box;
+        border:2px solid burlywood;
+        font-weight: 300;
+        color: black;
+        font-size: medium;
+  }
+  #msg{
+      color: antiquewhite;
+      display: none;
+      font-weight: 400;
+      font-size: large;
   }
   footer ,p{
       font-size: x-small;

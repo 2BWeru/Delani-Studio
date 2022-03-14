@@ -12,7 +12,7 @@ $(document).ready(function () {
 // what we do
 $("#clickable1").click(function () {
   $("#text1").show(function () {
-     $("#text1").hide(7000);
+     $("#text1").hide(3000);
   });
 });
 
@@ -95,13 +95,14 @@ $(".proj-8").hover(
   }
 );
 
+// pop up msg
+$('#btn').click(function(event){
+  $("#msg").show(function(){
+    $("#msg").hide(3000);
+
+  });
+
+        event.preventDefault();
+});
 
 
-$("#brand").hover(
-  function () {
-    $("#delani").css("display", "block");
-  },
-  function () {
-    $("#delani").css("display", "none");
-  }
-);
