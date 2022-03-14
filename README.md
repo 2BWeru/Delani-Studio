@@ -1,4 +1,5 @@
 # Delani-Studio
+<<<<<<< HEAD
 ## Aurthory
 
 ### Betty Wamaitha
@@ -20,7 +21,7 @@
 
  ![screenshot] [screenshot.png]
 ### Link to page
-[! link] ()
+[! link] (https://2bweru.github.io/Delani-Studio/)
 
 
 
@@ -33,7 +34,10 @@
 
 ## Copyright
 
-### copyright('Copyright (c) 2022.', Betty Wamaitha.'
+
+### copyright
+### ('Copyright (c) 2022.', Betty Wamaitha.'
+
 
 ## License
 
