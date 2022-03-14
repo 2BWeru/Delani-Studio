@@ -144,7 +144,7 @@ h2 , p {
     padding-bottom: 10px;
 }
 .proj-3{
-    background-image: url(/image/project3.jpeg);
+    background-image: url(../image/project3.jpeg);
     height:20vh;
     width:20vh;
     background-size: cover;
