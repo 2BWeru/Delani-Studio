@@ -18,7 +18,7 @@ $("#clickable1").click(function () {
 
 $("#clickable2").click(function () {
   $("#text2").show(function () {
-     $("#text2").hide();
+     $("#text2").hide(7000);
   });
 });
 
