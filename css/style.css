@@ -17,7 +17,7 @@ body{
 }
 /* overlay */
 .brand-image{
-    background-image: url(/image/studio2.jpg);
+    background-image: url(../image/studio2.jpg);
     height: 90vh;
     width:80vw;
     /* remove img sections display */
@@ -44,7 +44,7 @@ body{
 }
 /* /* another overlay */
 .serv-img{
-    background-image: url(/image/studio1.jpeg);
+    background-image: url(../image/studio1.jpeg);
     height:60vh;
     width:80vw;
     background-size: cover;
@@ -88,7 +88,7 @@ body{
 }
 .logo_box #text1{ 
     width:fit-content;
-    height:auto; 
+height:auto; 
     font-weight: 500;
     
 }
@@ -122,7 +122,7 @@ h2 , p {
     row-gap: 2;
 }
 .proj-1{
-    background-image: url(/image/project1.jpeg);
+    background-image: url(../image/project1.jpeg);
     height:30vh;
     width:20vh;
     background-size: cover;
@@ -131,7 +131,7 @@ h2 , p {
 
 }
 .proj-2{
-    background-image: url(/image/project2.jpeg);
+    background-image: url(../image/project2.jpeg);
     height:30vh;
     width:20vh;
     background-size: cover;
@@ -147,7 +147,7 @@ h2 , p {
     padding-bottom: 10px;
 }
 .proj-4{
-    background-image: url(/image/project4.jpeg);
+    background-image: url(../image/project4.jpeg);
     height:30vh;
     width:20vh;
     background-size: cover;
@@ -155,7 +155,7 @@ h2 , p {
     padding-bottom: 10px;
 }
 .proj-5{
-    background-image: url(/image/project5.jpeg);
+    background-image: url(../image/project5.jpeg);
     height:30vh;
     width:20vh;
     background-size: cover;
@@ -163,7 +163,7 @@ h2 , p {
     padding-bottom: 10px;
 }
 .proj-6{
-    background-image: url(/image/project6.jpeg);
+    background-image: url(../image/project6.jpeg);
     height:30vh;
     width:20vh;
     background-size: cover;
@@ -171,7 +171,7 @@ h2 , p {
     padding-bottom: 10px;
 }
 .proj-7{
-    background-image: url(/image/project7.jpeg);
+    background-image: url(../image/project7.jpeg);
     height:30vh;
     width:20vh;
     background-size: cover;
@@ -179,7 +179,7 @@ h2 , p {
     padding-bottom: 10px;
 }
 .proj-8{
-    background-image: url(/image/project8.jpeg);
+    background-image: url(../image/project8.jpeg);
     height:30vh;
     width:20vh;
     background-size: cover;
@@ -250,7 +250,7 @@ h2 , p {
 }
 
 .footer-img{
-    background-image: url(/image/studio3.jpg);
+    background-image: url(../image/studio3.jpg);
     height: 90vh;
     width: 80vw;
     background-size: cover;

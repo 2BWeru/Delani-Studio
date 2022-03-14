@@ -21,12 +21,12 @@
 
  ![screenshot] [screenshot.png]
 ### Link to page
-[! link] (https://2bweru.github.io/Delani-Studio/)
+![link] (https://2bweru.github.io/Delani-Studio/)
 
 
 
 ## webpage
-{image} (./)
+![image] (./)
 
 ## Contributions
 
