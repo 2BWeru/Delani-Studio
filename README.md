@@ -19,14 +19,14 @@
  - Bootstrap
  - JQuery
 
- ![screenshot] [screenshot.png]
+ 
 ### Link to page
-![link] (https://2bweru.github.io/Delani-Studio/)
+[link] (https://2bweru.github.io/Delani-Studio/)
 
 
 
 ## webpage
-![image] (./)
+[image] (https://github.com/2BWeru/Delani-Studio/blob/2bb4835fd7c0494f73f64b25a25ab83724d1cfbd/image/screenshot%20copy.png)
 
 ## Contributions
 
