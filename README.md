@@ -27,7 +27,7 @@
 
 
 ## webpage
-![image] (screenshot.png)
+![image] (/home/wamaitha/Documents/moringa-school-project1/Delani/screenshot.png)
 
 ## Contributions
 
