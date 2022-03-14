@@ -1,9 +1,10 @@
 # Delani-Studio
-<<<<<<< HEAD
+
 ## Aurthory
 
 ### Betty Wamaitha
 
+## Delani studion-
  ## Table of contents
  1. Welcome
  2. About us
@@ -26,16 +27,13 @@
 
 
 ## webpage
-[image] (https://github.com/2BWeru/Delani-Studio/blob/2bb4835fd7c0494f73f64b25a25ab83724d1cfbd/image/screenshot%20copy.png)
+![image] (https://raw.githubusercontent.com/2BWeru/Delani-Studio/2bb4835fd7c0494f73f64b25a25ab83724d1cfbd/image/screenshot%20copy.png)
 
 ## Contributions
 
-### This project follows the all-contributors specification and is brought to you by these awesome contributors.
+### This project follows the all-contributors specification and is brought to you by these awesome contributions.
 
 ## Copyright
-
-
-### copyright
 ### ('Copyright (c) 2022.', Betty Wamaitha.'
 
 
