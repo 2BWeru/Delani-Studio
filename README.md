@@ -27,7 +27,7 @@
 
 
 ## webpage
-![image] (https://raw.githubusercontent.com/2BWeru/Delani-Studio/2bb4835fd7c0494f73f64b25a25ab83724d1cfbd/image/screenshot%20copy.png)
+![image] (screenshot.png)
 
 ## Contributions
 
