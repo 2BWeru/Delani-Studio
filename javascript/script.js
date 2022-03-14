@@ -95,14 +95,5 @@ $(".proj-8").hover(
   }
 );
 
-// pop up msg
-$('#btn').click(function(event){
-  $("#msg").show(function(){
-    $("#msg").hide(3000);
-
-  });
-
-        event.preventDefault();
-});
 
 

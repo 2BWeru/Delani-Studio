@@ -13,7 +13,7 @@ body{
 }
 .container{
     padding-left: 30%;
-    scroll-padding-top: 10px;
+    padding-top: 10px;
 }
 /* overlay */
 .brand-image{
@@ -41,6 +41,10 @@ body{
     color:tan;
     font-size: medium;
     padding-top: 10%;
+}
+#about p{
+    font-size:medium;
+    
 }
 /* /* another overlay */
 .serv-img{
@@ -118,21 +122,22 @@ h2 , p {
 .project_box{
     column-rule: 4; 
     padding-bottom: 10px;
-    column-gap: 1;
-    row-gap: 2;
+    padding-top: 5px;
+     column-gap: 1; 
+     row-gap: 2; 
 }
 .proj-1{
     background-image: url(../image/project1.jpeg);
-    height:30vh;
+    height:20vh;
     width:20vh;
     background-size: cover;
     position:relative;
-    padding-bottom: 10px;
+    padding-bottom: 10%;
 
 }
 .proj-2{
     background-image: url(../image/project2.jpeg);
-    height:30vh;
+    height:20vh;
     width:20vh;
     background-size: cover;
     position:relative;
@@ -140,7 +145,7 @@ h2 , p {
 }
 .proj-3{
     background-image: url(/image/project3.jpeg);
-    height:30vh;
+    height:20vh;
     width:20vh;
     background-size: cover;
     position:relative;
@@ -148,7 +153,7 @@ h2 , p {
 }
 .proj-4{
     background-image: url(../image/project4.jpeg);
-    height:30vh;
+    height:20vh;
     width:20vh;
     background-size: cover;
     position:relative;
@@ -156,7 +161,7 @@ h2 , p {
 }
 .proj-5{
     background-image: url(../image/project5.jpeg);
-    height:30vh;
+    height:20vh;
     width:20vh;
     background-size: cover;
     position:relative;
@@ -164,7 +169,7 @@ h2 , p {
 }
 .proj-6{
     background-image: url(../image/project6.jpeg);
-    height:30vh;
+    height:20vh;
     width:20vh;
     background-size: cover;
     position:relative;
@@ -172,7 +177,7 @@ h2 , p {
 }
 .proj-7{
     background-image: url(../image/project7.jpeg);
-    height:30vh;
+    height:20vh;
     width:20vh;
     background-size: cover;
     position:relative;
@@ -180,73 +185,77 @@ h2 , p {
 }
 .proj-8{
     background-image: url(../image/project8.jpeg);
-    height:30vh;
+    height:20vh;
     width:20vh;
     background-size: cover;
     position:relative;
     padding-bottom: 10px;
 }
 .name1-ovelay{
-    height:30vh;
+    height:20vh;
     width:20vw;
     position:absolute;
     display:block;
     text-align: center;
+    padding-bottom: 10%;
 
 }.name2-ovelay{
-    height:30vh;
+    height:20vh;
     width:20vw;
     position:absolute;
     display:block;
     text-align: center;
+    padding-bottom: 10%;
 
 }
 .name3-ovelay{
-    height:30vh;
+    height:20vh;
     width:20vw;
     position:absolute;
     display:block;
     text-align: center;
+    padding-bottom: 10%;
 
 }
 .name4-ovelay{
-    height:30vh;
+    height:20vh;
     width:20vw;
     position:absolute;
     display:block;
     text-align: center;
-
+    padding-bottom: 10%;
 }.name5-ovelay{
-    height:30vh;
+    height:20vh;
     width:20vw;
     position:absolute;
     display:block;
     text-align: center;
-
+    padding-bottom: 10%;
 }
 .name6-ovelay{
-    height:30vh;
+    height:20vh;
     width:20vw;
     position:absolute;
     display:block;
-
+    padding-bottom: 10%;
 }
 .name7-ovelay{
-    height:30vh;
+    height:20vh;
     width:20vw;
     position:absolute;
     display:block;
-
+    padding-bottom: 10%;
 }.name8-ovelay{
-    height:30vh;
+    height:20vh;
     width:20vw;
     position:absolute;
     display:block;
-
+    padding-bottom: 10%;
 }
 .prj{
     text-align: center;
-    color:teal;
+    color:tan;
+    padding-top: 30px; 
 }
 
 .footer-img{
@@ -263,65 +272,20 @@ h2 , p {
     display:block;
     color: rgb(0,0,0,0.2);
 }
-input[type=text] {
-    width: 90%;
-    padding: 20px 20px;
-    margin: 12px 0;
-    box-sizing: border-box;
-    border:2px solid white;
-    font-weight: 300;
-    color: gray;
-    font-size: medium;
-    
-}
-  input[type=email] {
-    width: 90%;
-    padding: 20px 20px;
-    margin: 12px 0;
-    box-sizing: border-box;
-    border:2px solid#ccc;
-    font-weight: 300;
-    color: gray;
-    font-size: medium;
-  }
-  textarea {
-      width:90%;
-      height:300px;
-      background-color:white;
-      resize: none;
-      box-sizing: border-box;
-      border: 2px solid tan;
-      border-radius: 4px;
-      font-weight: 300;
-      font-size: medium;
-      color: gray;
-      font-size: medium;
 
-  }
+#mc_embed_signup{
+    float:left;
+    padding-left: 10%;
+
+}
   .icon_box{
       padding-top: 10px;
       text-align: center;
       padding-bottom: 6px;
       
   }
-  #btn{
-        width: 20%;
-        padding: 10px 12px;
-        margin: 6px 0;
-        box-sizing: border-box;
-        border:2px solid burlywood;
-        font-weight: 300;
-        color: black;
-        font-size: medium;
-  }
-  #msg{
-      color: antiquewhite;
-      display: none;
-      font-weight: 400;
-      font-size: large;
-  }
+
+ 
   footer ,p{
       font-size: x-small;
   }
-  
-
