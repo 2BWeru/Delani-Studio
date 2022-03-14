@@ -4,7 +4,7 @@
 
 ### Betty Wamaitha
 
-## Delani studion- This is an astaunding , well-equped tech studio. Filled with amazing people making amazing designs in a fun environmen
+## Delani studion- This is a state of the art tech studio. Filled with amazing people making amazing designs in a fun environmen
  ## Table of contents
  1. Welcome
  2. About us
