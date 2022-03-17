@@ -20,26 +20,34 @@
     <title>Delani Studio</title>
   </head>
   <body>
-    <header class="container">
+    <header class="container-fluid">
       <div  id="brand" class="brand-image">
         <div  id="delani" class="overlay">
-          <h2>Welcome</h2>
-          <h2>To Delani Studio</h2>
+          <h2>Welcome
+          <br> <br>To Delani Studio</h2>
         <p id="welcome">
           Amazing people making amazing designs in a fun environment<br/>
-          <div class="mouse-click" id="mouse-toggle">
-            <img src="./image/outline_mouse_black_24dp.png" id="mouse" width="20px" height="20px">
+          <div onclick="sU()" id="mouse-toggle" ondblclick="sd">
+            <img id="mouse" src="./image/outline_mouse_black_24dp.png" color="white">
+            <script>
+              let sU = function() {
+                $("#mouse").toggle(200)
+              }
+              let sd = function() {
+                $("#mouse").slideDown(200)
+              }
+            </script>
           </div>
         </p>
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="container-fluid">
       <div id="about">
         <h3>About us</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
           Placeat inventore voluptatibus consequatur dolores hic,
-           alias debitis laudantium cumque suscipit, cupiditate consectetur unde, 
+           alias debitis laudantium cumque suscipit,<br> cupiditate consectetur unde, 
            officiis autem delectus sapiente harum! Possimus, delectus itaque?<br>
            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
            Assumenda dolore quod fugiat similique deleniti voluptas excepturi quibusdam!<br>
@@ -103,28 +111,28 @@
         <div class="row">
           <div class="col-sm-3">
             <div class="proj-1">
-              <div class="name-overlay">
+              <div class="name1-overlay">
                 <h5 class="prj">Muzri Band</h5>
               </div>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="proj-2">
-              <div class="name-overlay">
+              <div class="name2-overlay">
                 <h4 class="prj">horizon</h4>
               </div>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="proj-3">
-              <div class="name-overlay">
+              <div class="name3-overlay">
                 <h5 class="prj">Infinity</h5>
               </div>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="proj-4">
-              <div class="name-overlay">
+              <div class="name4-overlay">
                 <h5 class="prj">Shazam<br>photography</h5>
               </div>
             </div>
@@ -133,28 +141,28 @@
         <div class="row">
           <div class="col-sm-3">
             <div class="proj-5">
-              <div class="name-overlay">
+              <div class="name5-overlay">
                 <h5 class="prj">Light Gala</h5>
               </div>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="proj-6">
-              <div class="name-overlay">
+              <div class="name6-overlay">
                 <h5 class="prj">Gent's wear</h5>
               </div>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="proj-7">
-              <div class="name-overlay">
+              <div class="name7-overlay">
                 <h5 class="prj">Renae Studio</h5>
               </div>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="proj-8">
-              <div class="name-overlay">
+              <div class="name8-overlay">
                 <h5 class="prj">Moments</h5>
               </div>
             </div>
@@ -162,55 +170,35 @@
         </div>
       </div>
     </main>
-    <footer class="container">
+    <footer class="container-fluid">
       <div class="footer_box">
         <div class="footer-img">
         <div class="form-overlay">
-          <!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:rgba(0,0,0,0.1); clear:left;font-weight: 400; font:24px Helvetica,Arial,sans-serif;  width:600px; padding-left: 30%; color: bisque;}
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://gmail.us14.list-manage.com/subscribe/post?u=b95232b9110ddd5319a9b7016&amp;id=7bb563e875" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-      <div class="row">
-      <div class="col-sm-6">
-<div class="mc-field-group">
-	<label for="mce-EMAIL">
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" placeholder="email"id="mce-EMAIL">
-</div>
-</div>
-<div class="col-sm-6">
-<div class="mc-field-group">
-	<label for="mce-PHONE"></label>
-	<input type="text" name="PHONE" placeholder="Contact" id="mce-PHONE" required>
-</div>
-</div>
-</div>
-	<div id="mce-responses" class="clear foot">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    
-        <div class="optionalParent">
-            <div class="clear-foot">
-                <textarea id="textarea" placeholder="Your message ..." required></textarea><br>
-                <p class="brandingLogo"><a href="http://eepurl.com/hW_czX" title="Mailchimp - email marketing made easy and fun">
-                  <img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg" width="100px" height="100px" ></a></p>
+          <form id="form-det">
+            <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <label for="contact"></label>
+                <input type="text" id="contact" placeholder="Contact" required>
+              </div>
+              <div class="col-6">
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="Email" required>
+              </div>
+             </div>
+             <textarea id="txtarea" placeholder="Your message"></textarea>
+             <br>
+             <button onclick="submitText" id="submit" value="submit">Submit</button>
+             <p id="msg">
+               Hello,<br>We have received your message.<br>
+               Thank you for contacting us!
+               </p>
             </div>
-        </div>
-    </div>
-</form>
-</div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<!--End mc_embed_signup-->
+            </form>
           </div>
         </div>
       </div>
+
       <div class="icon_box">
         <img src="./image/behance.png" alt="icon1" width="30px" height="30px" />
         <img src="./image/g_plus.png" alt="icon2" width="30px" height="30px" />

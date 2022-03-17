@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
   $("#brand").hover(
     function () {
@@ -40,60 +41,62 @@ $(".proj-1").hover(
 
 $(".proj-2").hover(
   function () {
-    $(".name-overlay").css("display", "block");
+    $(".name2-overlay").css("display", "block");
   },
   function () {
-    $(".name-overlay").css("display", "none");
+    $(".name2-overlay").css("display", "none");
   }
 );
 $(".proj-3").hover(
   function () {
-    $(".name-overlay").css("display", "block");
+    $(".name3-overlay").css("display", "block");
   },
   function () {
-    $(".name-overlay").css("display", "none");
+    $(".name3-overlay").css("display", "none");
   }
 );
 $(".proj-4").hover(
   function () {
-    $(".name-overlay").css("display", "block");
+    $(".name4-overlay").css("display", "block");
   },
   function () {
-    $(".name-overlay").css("display", "none");
+    $(".name4-overlay").css("display", "none");
   }
 );
 $(".proj-5").hover(
   function () {
-    $(".name-overlay").css("display", "block");
+    $(".name5-overlay").css("display", "block");
   },
   function () {
-    $(".name-overlay").css("display", "none");
+    $(".name5-overlay").css("display", "none");
   }
 );
 $(".proj-6").hover(
   function () {
-    $(".name-overlay").css("display", "block");
+    $(".name6-overlay").css("display", "block");
   },
   function () {
-    $(".name-overlay").css("display", "none");
+    $(".name6-overlay").css("display", "none");
   }
 );
 $(".proj-7").hover(
   function () {
-    $(".name-overlay").css("display", "block");
+    $(".name7-overlay").css("display", "block");
   },
   function () {
-    $(".name-overlay").css("display", "none");
+    $(".name7-overlay").css("display", "none");
   }
 );
 $(".proj-8").hover(
   function () {
-    $(".name-overlay").css("display", "block");
+    $(".name8-overlay").css("display", "block");
   },
   function () {
-    $(".name-overlay").css("display", "none");
+    $(".name8-overlay").css("display", "none");
   }
 );
 
-
+$("button#submit").click(function(){
+  $("p#msg").css("display","block");
+})
 

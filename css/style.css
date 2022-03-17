@@ -14,42 +14,51 @@ body{
 
     font-family: 'Zilla Slab', serif;
 }
-.container{
-    padding-left: 30%;
+.container-fluid{
+    padding-left: 10px;
     padding-top: 10px;
 }
 /* overlay */
 .brand-image{
     background-image: url(../image/h_img.jpg);
-    height: 90vh;
-    width:80vw;
+    height: 100vh;
+    width:100vw;
     /* remove img sections display */
     background-size:cover;
     position:relative;
 }
 .overlay{
     position:absolute;
-    height: 90vh;
-    width:80vw;
+    height: 100vh;
+    width:100vw;
     background-color: rgb(0,0,0,0.2);
     display: none;
 }
 .overlay h2 {
     text-align: center;
-    padding-top: 10%;
+    padding-top:200px;
     color:antiquewhite;
 }
 #welcome{
     text-align: center;
-    color:tan;
+    color:whitesmoke;
     font-size: medium;
-    padding-top: 8%;
+    padding-top: 10px;
 }
-.mouse-click{
+#mouse{
+    padding-left: 50%;
+    color: whitesmoke;
+}
+#mouse-toogle{
     padding-top: 4px;
     text-align: center;
     color: antiquewhite;
     
+}
+.about{
+    padding-top: 30px;
+    width:70%;
+    height: 40%;
 }
 #about p{
     font-size:medium;
@@ -58,28 +67,31 @@ body{
 /* /* another overlay */
 .serv-img{
     background-image: url(../image/s_image.jpg);
-    height:60vh;
-    width:80vw;
+    height:70vh;
+    width:100vw;
     background-size: cover;
     position: relative;
+    padding-top: 30px;
     
 }
 .serv-overlay{
     position: absolute;
-    height: 60vh;
-    width: 80vw;
+    height: 70vh;
+    width: 100vw;
     display: block;
 
 }
 .serv-overlay h3{
-    padding-top: 70px;
+    padding-top: 100px;
     font-weight: 400;
     color:whitesmoke;
 }
 .serv-overlay p{
     padding-top: 6px;
     font-size: medium;
-    color: #ccc;
+    color: whitesmoke;
+    font-weight: 500;
+
 } 
 /* what we do overlay */
 #text1{
@@ -97,11 +109,12 @@ body{
 
 .logo_box{
     width:100%;
+    padding-left: 20%;
     
 }
 .logo_box #text1{ 
     width:fit-content;
-height:auto; 
+    height:auto; 
     font-weight: 500;
     
 }
@@ -212,7 +225,7 @@ h2 , p {
     height:20vh;
     width:30vw;
     position:absolute;
-    display:block;
+    display:none;
     text-align: center;
     padding-bottom: 10%;
     margin: 1px 1px 1px 1px;
@@ -221,7 +234,7 @@ h2 , p {
     height:20vh;
     width:30vw;
     position:absolute;
-    display:block;
+    display:none;
     text-align: center;
     padding-bottom: 10%;
 
@@ -230,7 +243,7 @@ h2 , p {
     height:20vh;
     width:30vw;
     position:absolute;
-    display:block;
+    display:none;
     text-align: center;
     padding-bottom: 10%;
 
@@ -239,14 +252,14 @@ h2 , p {
     height:20vh;
     width:30vw;
     position:absolute;
-    display:block;
+    display:none;
     text-align: center;
     padding-bottom: 10%;
 }.name5-ovelay{
     height:20vh;
     width:30vw;
     position:absolute;
-    display:block;
+    display:none;
     text-align: center;
     padding-bottom: 10%;
 }
@@ -254,20 +267,20 @@ h2 , p {
     height:20vh;
     width:30vw;
     position:absolute;
-    display:block;
+    display:none;
     padding-bottom: 10%;
 }
 .name7-ovelay{
     height:20vh;
     width:30vw;
     position:absolute;
-    display:block;
+    display:none;
     padding-bottom: 10%;
 }.name8-ovelay{
     height:20vh;
     width:30vw;
     position:absolute;
-    display:block;
+    display:none;
     padding-bottom: 10%;
 }
 .prj{
@@ -283,35 +296,68 @@ h2 , p {
 .footer-img{
     background-image: url(../image/f_image.jpg);
     height: 80vh;
-    width: 80vw;
+    width: 100vw;
     background-size: cover;
     position: relative;
 }   
 .form-overlay{
     height:80vh;
-    width:80vw;
+    width:100vw;
     position: absolute;
     display:block;
-    color: rgb(0,0,0,0.2);
+    color: rgb(0,0,0,0.4);
 }
-
-#mc_embed_signup{
-    float:left;
-    padding-left: 10%;
-    
-    
-
+form{
+    padding-top: 100px; 
+    text-align: center;
 }
-.mc-field-group{
-    width:50%;
-    padding: 12px 20px;
+#contact{
+    width:100%;
+    height: 30%;
+    padding: 22px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    color:#ccc;
-
+    color:whitesmoke;
+    font-size: medium;
+    background-color: rgb(0,0,0,0.1);
 
 }
-
+#email{
+    width:100%;
+    height: 30%;
+    padding: 22px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color:whitesmoke;
+    font-size: medium;
+    background-color: rgb(0,0,0,0.1);
+}
+#txtarea{
+    width:70%;
+    height: 500%;
+    padding: 22px 20px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    color:whitesmoke;
+    font-size: medium;
+    background-color: rgb(0,0,0,0.1);
+}
+#submit{
+    width:10%;
+    height: 10%;
+    padding: 10px 5px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    color:whitesmoke;
+    font-size: medium;
+    background-color: rgb(0,0,0,0.2)
+}
+#msg{
+    display:none;
+    font-size: large;
+    color:whitesmoke;
+    font-weight: 500;
+}
 .clear-foot{
     width:90%;
     height: 70%;
